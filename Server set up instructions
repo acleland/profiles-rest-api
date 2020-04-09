@@ -1,0 +1,7 @@
+vagrant ssh
+cd ./vagrant
+source ~/env/bin/activate
+python manage.py runserver 0.0.0.0:8000
+
+browser url:
+127.0.0.1:8000
